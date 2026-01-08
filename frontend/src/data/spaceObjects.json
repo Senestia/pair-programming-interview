@@ -1,0 +1,902 @@
+[
+    {
+      "id": "MET-001",
+      "name": "Canyon Diablo Fragment",
+      "type": "iron",
+      "composition": ["Iron", "Nickel", "Graphite"],
+      "mass_g": 340.5,
+      "is_radioactive": false,
+      "description": "A dense fragment from the famous Barringer Crater impact in Arizona."
+    },
+    {
+      "id": "MET-002",
+      "name": "Allende Matrix",
+      "type": "chondrite",
+      "composition": ["Carbon", "Calcium", "Aluminum"],
+      "mass_g": 45.2,
+      "is_radioactive": false,
+      "description": "Contains some of the oldest known matter in the solar system."
+    },
+    {
+      "id": "MET-003",
+      "name": "Sikhote-Alin Shrapnel",
+      "type": "iron",
+      "composition": ["Iron", "Nickel"],
+      "mass_g": 12500.0,
+      "is_radioactive": false,
+      "description": "Massive torn metal fragment from the 1947 fall in Siberia."
+    },
+    {
+      "id": "MET-004",
+      "name": "NWA 7034 'Black Beauty'",
+      "type": "martian",
+      "composition": ["Basalt", "Water"],
+      "mass_g": 12.0,
+      "is_radioactive": false,
+      "description": "A rare Martian breccia containing water-rich minerals."
+    },
+    {
+      "id": "MET-005",
+      "name": "Fukang Pallasite",
+      "type": "pallasite",
+      "composition": ["Iron", "Olivine"],
+      "mass_g": 850.0,
+      "is_radioactive": false,
+      "description": "Stunning translucent olivine crystals suspended in an iron-nickel matrix."
+    },
+    {
+      "id": "MET-006",
+      "name": "Chernobylite Space Debris",
+      "type": "debris",
+      "composition": ["Zirconium", "Uranium"],
+      "mass_g": 500.0,
+      "is_radioactive": true,
+      "description": "Radioactive fuel fragment from a de-orbited nuclear satellite."
+    },
+    {
+      "id": "MET-007",
+      "name": "Gibeon Slice",
+      "type": "iron",
+      "composition": ["Iron", "Cobalt"],
+      "mass_g": 1200.0,
+      "is_radioactive": false,
+      "description": "Polished slice showing the Widmanstätten pattern."
+    },
+    {
+      "id": "MET-008",
+      "name": "Murchison Sample",
+      "type": "chondrite",
+      "composition": ["Amino Acids", "Carbon"],
+      "mass_g": 22.5,
+      "is_radioactive": false,
+      "description": "Famous for containing complex organic compounds and amino acids."
+    },
+    {
+      "id": "MET-009",
+      "name": "Chelyabinsk Fragment",
+      "type": "stony",
+      "composition": ["Silicate", "Iron"],
+      "mass_g": 150.0,
+      "is_radioactive": false,
+      "description": "Recovered from the 2013 airburst event over Russia."
+    },
+    {
+      "id": "MET-010",
+      "name": "Hoba Main Mass",
+      "type": "iron",
+      "composition": ["Iron", "Nickel"],
+      "mass_g": 60000.0,
+      "is_radioactive": false,
+      "description": "The largest known intact meteorite on Earth. Extremely heavy."
+    },
+    {
+      "id": "MET-011",
+      "name": "Lunar Feldspar",
+      "type": "lunar",
+      "composition": ["Anorthosite"],
+      "mass_g": 8.0,
+      "is_radioactive": false,
+      "description": "White rock fragment from the lunar highlands."
+    },
+    {
+      "id": "MET-012",
+      "name": "Reactor Core Ejecta",
+      "type": "debris",
+      "composition": ["Uranium-235"],
+      "mass_g": 150.0,
+      "is_radioactive": true,
+      "description": "Highly radioactive slag from a theoretical orbital reactor test."
+    },
+    {
+      "id": "MET-013",
+      "name": "Campo del Cielo",
+      "type": "iron",
+      "composition": ["Iron", "Nickel"],
+      "mass_g": 5000.0,
+      "is_radioactive": false,
+      "description": "Large iron meteorite used by indigenous people for weaponry."
+    },
+    {
+      "id": "MET-014",
+      "name": "Tissint Martian",
+      "type": "martian",
+      "composition": ["Shergottite"],
+      "mass_g": 45.0,
+      "is_radioactive": false,
+      "description": "Fresh Martian fall with fusion crust intact."
+    },
+    {
+      "id": "MET-015",
+      "name": "Esquel Pallasite",
+      "type": "pallasite",
+      "composition": ["Iron", "Olivine"],
+      "mass_g": 300.0,
+      "is_radioactive": false,
+      "description": "Gem-quality peridot crystals in metal."
+    },
+    {
+      "id": "MET-016",
+      "name": "Cosmic Dust Collector",
+      "type": "debris",
+      "composition": ["Aerogel", "Silica"],
+      "mass_g": 0.5,
+      "is_radioactive": false,
+      "description": "Aerogel block containing microscopic interstellar dust particles."
+    },
+    {
+      "id": "MET-017",
+      "name": "Zagami",
+      "type": "martian",
+      "composition": ["Basalt"],
+      "mass_g": 180.0,
+      "is_radioactive": false,
+      "description": "Volcanic rock from Mars, crystallized 175 million years ago."
+    },
+    {
+      "id": "MET-018",
+      "name": "Peekskill Fragment",
+      "type": "stony",
+      "composition": ["Silicate"],
+      "mass_g": 1200.0,
+      "is_radioactive": false,
+      "description": "Famous for hitting a Chevy Malibu in 1992."
+    },
+    {
+      "id": "MET-019",
+      "name": "Beta-Decay Isotope",
+      "type": "debris",
+      "composition": ["Strontium-90"],
+      "mass_g": 25.0,
+      "is_radioactive": true,
+      "description": "Radioactive isotope source from an old RTG power unit."
+    },
+    {
+      "id": "MET-020",
+      "name": "Willamette Iron",
+      "type": "iron",
+      "composition": ["Iron", "Nickel"],
+      "mass_g": 15500.0,
+      "is_radioactive": false,
+      "description": "Deeply pitted iron meteorite. Requires crane for transport."
+    },
+    {
+      "id": "MET-021",
+      "name": "Tagish Lake",
+      "type": "chondrite",
+      "composition": ["Carbon", "Water"],
+      "mass_g": 200.0,
+      "is_radioactive": false,
+      "description": "Pristine sample kept frozen to preserve volatile organics."
+    },
+    {
+      "id": "MET-022",
+      "name": "Brenham Pallasite",
+      "type": "pallasite",
+      "composition": ["Iron", "Olivine"],
+      "mass_g": 4000.0,
+      "is_radioactive": false,
+      "description": "Large slice showing rounded olivine crystals."
+    },
+    {
+      "id": "MET-023",
+      "name": "Moldavite Tektite",
+      "type": "tektite",
+      "composition": ["Silica Glass"],
+      "mass_g": 15.0,
+      "is_radioactive": false,
+      "description": "Green natural glass formed by meteorite impact in Germany."
+    },
+    {
+      "id": "MET-024",
+      "name": "Libyan Desert Glass",
+      "type": "tektite",
+      "composition": ["Silica"],
+      "mass_g": 45.0,
+      "is_radioactive": false,
+      "description": "Yellow impact glass found in the Great Sand Sea."
+    },
+    {
+      "id": "MET-025",
+      "name": "Titanium Fuel Tank",
+      "type": "debris",
+      "composition": ["Titanium", "Hydrazine"],
+      "mass_g": 12000.0,
+      "is_radioactive": false,
+      "description": "Crushed fuel tank from a re-entered rocket stage. Toxic residue removed."
+    },
+    {
+      "id": "MET-026",
+      "name": "Plutonium Heat Source",
+      "type": "debris",
+      "composition": ["Plutonium-238"],
+      "mass_g": 50.0,
+      "is_radioactive": true,
+      "description": "Warm to the touch. Alpha emitter from a deep space probe."
+    },
+    {
+      "id": "MET-027",
+      "name": "Lunar Basalt 70017",
+      "type": "lunar",
+      "composition": ["Ilmenite", "Pyroxene"],
+      "mass_g": 120.0,
+      "is_radioactive": false,
+      "description": "Titanium-rich basalt returned from the Apollo 17 mission."
+    },
+    {
+      "id": "MET-028",
+      "name": "Kaidun",
+      "type": "chondrite",
+      "composition": ["Unknown"],
+      "mass_g": 30.0,
+      "is_radioactive": false,
+      "description": "Contains fragments from many different parent bodies, possibly Phobos."
+    },
+    {
+      "id": "MET-029",
+      "name": "Agoudal",
+      "type": "iron",
+      "composition": ["Iron", "Nickel"],
+      "mass_g": 150.0,
+      "is_radioactive": false,
+      "description": "Shatter cone structure indicating high velocity impact."
+    },
+    {
+      "id": "MET-030",
+      "name": "Orgueil",
+      "type": "chondrite",
+      "composition": ["Sulfate", "Carbon"],
+      "mass_g": 60.0,
+      "is_radioactive": false,
+      "description": "Highly fragile meteorite that dissolves in rain."
+    },
+    {
+      "id": "MET-031",
+      "name": "Iridium Anomaly Layer",
+      "type": "stony",
+      "composition": ["Iridium", "Clay"],
+      "mass_g": 500.0,
+      "is_radioactive": false,
+      "description": "Sediment layer rich in iridium from the dinosaur-killing impact."
+    },
+    {
+      "id": "MET-032",
+      "name": "Cobalt-60 Source",
+      "type": "debris",
+      "composition": ["Cobalt-60"],
+      "mass_g": 10.0,
+      "is_radioactive": true,
+      "description": "Industrial radiography source lost in orbit. Lethal radiation levels."
+    },
+    {
+      "id": "MET-033",
+      "name": "Mundrabilla",
+      "type": "iron",
+      "composition": ["Iron", "Sulfur"],
+      "mass_g": 11000.0,
+      "is_radioactive": false,
+      "description": "Iron meteorite with unusual sulfur nodules."
+    },
+    {
+      "id": "MET-034",
+      "name": "Seymchan",
+      "type": "pallasite",
+      "composition": ["Iron", "Olivine"],
+      "mass_g": 5000.0,
+      "is_radioactive": false,
+      "description": "Transitional meteorite, parts are solid iron, parts are pallasite."
+    },
+    {
+      "id": "MET-035",
+      "name": "Lunar Breccia NWA 5000",
+      "type": "lunar",
+      "composition": ["Feldspar"],
+      "mass_g": 250.0,
+      "is_radioactive": false,
+      "description": "One of the largest and most beautiful lunar meteorites found."
+    },
+    {
+      "id": "MET-036",
+      "name": "Vesta HED",
+      "type": "achondrite",
+      "composition": ["Pyroxene"],
+      "mass_g": 300.0,
+      "is_radioactive": false,
+      "description": "Howardite-Eucrite-Diogenite meteorite from the asteroid Vesta."
+    },
+    {
+      "id": "MET-037",
+      "name": "Cape York",
+      "type": "iron",
+      "composition": ["Iron"],
+      "mass_g": 30000.0,
+      "is_radioactive": false,
+      "description": "Massive iron meteorite from Greenland. Needs heavy lift team."
+    },
+    {
+      "id": "MET-038",
+      "name": "Uranium Ore (Space)",
+      "type": "chondrite",
+      "composition": ["Uraninite"],
+      "mass_g": 100.0,
+      "is_radioactive": true,
+      "description": "Rare chondrite containing high concentrations of uranium."
+    },
+    {
+      "id": "MET-039",
+      "name": "Gold Basin",
+      "type": "stony",
+      "composition": ["Silicate"],
+      "mass_g": 15.0,
+      "is_radioactive": false,
+      "description": "Weathered stone found in Arizona."
+    },
+    {
+      "id": "MET-040",
+      "name": "Imilac",
+      "type": "pallasite",
+      "composition": ["Iron", "Olivine"],
+      "mass_g": 120.0,
+      "is_radioactive": false,
+      "description": "Highly stable pallasite, crystals do not weather easily."
+    },
+    {
+      "id": "MET-041",
+      "name": "Bencubbin",
+      "type": "chondrite",
+      "composition": ["Iron", "Carbon"],
+      "mass_g": 200.0,
+      "is_radioactive": false,
+      "description": "Carbonaceous chondrite with heavy metal content."
+    },
+    {
+      "id": "MET-042",
+      "name": "Tungsten Penetrator",
+      "type": "debris",
+      "composition": ["Tungsten"],
+      "mass_g": 15000.0,
+      "is_radioactive": false,
+      "description": "Kinetic bombardment test rod. Extremely dense and heavy."
+    },
+    {
+      "id": "MET-043",
+      "name": "Cesium Fragment",
+      "type": "debris",
+      "composition": ["Cesium-137"],
+      "mass_g": 5.0,
+      "is_radioactive": true,
+      "description": "Fragment of a coolant loop from a Soviet RORSAT satellite."
+    },
+    {
+      "id": "MET-044",
+      "name": "Camel Donga",
+      "type": "achondrite",
+      "composition": ["Calcium"],
+      "mass_g": 400.0,
+      "is_radioactive": false,
+      "description": "Eucrite with a glossy black fusion crust."
+    },
+    {
+      "id": "MET-045",
+      "name": "Norton County",
+      "type": "achondrite",
+      "composition": ["Aubrite"],
+      "mass_g": 1000.0,
+      "is_radioactive": false,
+      "description": "Rare enstatite achondrite, very light color."
+    },
+    {
+      "id": "MET-046",
+      "name": "Indochinite",
+      "type": "tektite",
+      "composition": ["Glass"],
+      "mass_g": 60.0,
+      "is_radioactive": false,
+      "description": "Black impact glass found in Southeast Asia."
+    },
+    {
+      "id": "MET-047",
+      "name": "Muonionalusta",
+      "type": "iron",
+      "composition": ["Iron", "Nickel"],
+      "mass_g": 550.0,
+      "is_radioactive": false,
+      "description": "Oldest known meteorite, impacted Earth 1 million years ago."
+    },
+    {
+      "id": "MET-048",
+      "name": "Knyahinya",
+      "type": "chondrite",
+      "composition": ["Silicate"],
+      "mass_g": 250.0,
+      "is_radioactive": false,
+      "description": "Standard L5 chondrite from Ukraine."
+    },
+    {
+      "id": "MET-049",
+      "name": "Americium Slug",
+      "type": "debris",
+      "composition": ["Americium-241"],
+      "mass_g": 2.0,
+      "is_radioactive": true,
+      "description": "Radioactive source from a spacecraft sensor array."
+    },
+    {
+      "id": "MET-050",
+      "name": "Lead Safe Box",
+      "type": "debris",
+      "composition": ["Lead"],
+      "mass_g": 12000.0,
+      "is_radioactive": false,
+      "description": "Empty lead container used for shielding. Very heavy."
+    },
+    {
+      "id": "MET-051",
+      "name": "NWA 1111",
+      "type": "martian",
+      "composition": ["Basalt"],
+      "mass_g": 33.0,
+      "is_radioactive": false,
+      "description": "Martian nakhlite."
+    },
+    {
+      "id": "MET-052",
+      "name": "Dhofar 007",
+      "type": "achondrite",
+      "composition": ["Eucrite"],
+      "mass_g": 450.0,
+      "is_radioactive": false,
+      "description": "Cumulate eucrite from the asteroid belt."
+    },
+    {
+      "id": "MET-053",
+      "name": "Henbury",
+      "type": "iron",
+      "composition": ["Iron"],
+      "mass_g": 600.0,
+      "is_radioactive": false,
+      "description": "Fragment from the Henbury crater field in Australia."
+    },
+    {
+      "id": "MET-054",
+      "name": "Th-232 Reactor Part",
+      "type": "debris",
+      "composition": ["Thorium"],
+      "mass_g": 500.0,
+      "is_radioactive": true,
+      "description": "Thorium component from an experimental propulsion drive."
+    },
+    {
+      "id": "MET-055",
+      "name": "Millbillillie",
+      "type": "achondrite",
+      "composition": ["Eucrite"],
+      "mass_g": 55.0,
+      "is_radioactive": false,
+      "description": "Fine-grained eucrite that fell in Australia in 1960."
+    },
+    {
+      "id": "MET-056",
+      "name": "Estherville",
+      "type": "stony-iron",
+      "composition": ["Mesosiderite"],
+      "mass_g": 800.0,
+      "is_radioactive": false,
+      "description": "Mix of iron and silicate, termed a mesosiderite."
+    },
+    {
+      "id": "MET-057",
+      "name": "Sericho",
+      "type": "pallasite",
+      "composition": ["Iron", "Olivine"],
+      "mass_g": 2000.0,
+      "is_radioactive": false,
+      "description": "Recent pallasite find in Kenya. Large, stable crystals."
+    },
+    {
+      "id": "MET-058",
+      "name": "K-40 Salt Sample",
+      "type": "debris",
+      "composition": ["Potassium-40"],
+      "mass_g": 100.0,
+      "is_radioactive": true,
+      "description": "Salt crystals from a biological experiment, mildly radioactive."
+    },
+    {
+      "id": "MET-059",
+      "name": "Osmium Ballast",
+      "type": "debris",
+      "composition": ["Osmium"],
+      "mass_g": 11000.0,
+      "is_radioactive": false,
+      "description": "Density test weight. Small volume but exceeds safety limits."
+    },
+    {
+      "id": "MET-060",
+      "name": "Gao-Guenie",
+      "type": "chondrite",
+      "composition": ["Silicate"],
+      "mass_g": 300.0,
+      "is_radioactive": false,
+      "description": "From a massive meteorite shower in Burkina Faso."
+    },
+    {
+      "id": "MET-061",
+      "name": "Holbrook",
+      "type": "chondrite",
+      "composition": ["Silicate"],
+      "mass_g": 12.0,
+      "is_radioactive": false,
+      "description": "Small pea-sized stone from a 1912 fall."
+    },
+    {
+      "id": "MET-062",
+      "name": "Ra-226 Dial",
+      "type": "debris",
+      "composition": ["Radium"],
+      "mass_g": 5.0,
+      "is_radioactive": true,
+      "description": "Radium paint instrument dial from a vintage spacecraft."
+    },
+    {
+      "id": "MET-063",
+      "name": "Heavy Shielding Block",
+      "type": "debris",
+      "composition": ["Tungsten", "Lead"],
+      "mass_g": 14000.0,
+      "is_radioactive": false,
+      "description": "Radiation shielding block. Requires forklift."
+    },
+    {
+      "id": "MET-064",
+      "name": "Buzzard Coulee",
+      "type": "chondrite",
+      "composition": ["Silicate"],
+      "mass_g": 150.0,
+      "is_radioactive": false,
+      "description": "Oriented stone showing flow lines."
+    },
+    {
+      "id": "MET-065",
+      "name": "Claxton",
+      "type": "chondrite",
+      "composition": ["Silicate"],
+      "mass_g": 300.0,
+      "is_radioactive": false,
+      "description": "Famous for hitting a mailbox."
+    },
+    {
+      "id": "MET-066",
+      "name": "Tritium Vial",
+      "type": "debris",
+      "composition": ["Tritium"],
+      "mass_g": 1.0,
+      "is_radioactive": true,
+      "description": "Glass vial containing radioactive hydrogen gas."
+    },
+    {
+      "id": "MET-067",
+      "name": "Dar al Gani 400",
+      "type": "lunar",
+      "composition": ["Anorthosite"],
+      "mass_g": 120.0,
+      "is_radioactive": false,
+      "description": "Lunar meteorite found in the Libyan desert."
+    },
+    {
+      "id": "MET-068",
+      "name": "Gold Ore Asteroid",
+      "type": "iron",
+      "composition": ["Iron", "Gold"],
+      "mass_g": 500.0,
+      "is_radioactive": false,
+      "description": "Iron meteorite with visible gold inclusions."
+    },
+    {
+      "id": "MET-069",
+      "name": "Promethium Battery",
+      "type": "debris",
+      "composition": ["Promethium"],
+      "mass_g": 20.0,
+      "is_radioactive": true,
+      "description": "Betavoltaic battery cell. Radioactive."
+    },
+    {
+      "id": "MET-070",
+      "name": "Odessa Iron",
+      "type": "iron",
+      "composition": ["Iron"],
+      "mass_g": 8000.0,
+      "is_radioactive": false,
+      "description": "Shrapnel from the Odessa crater in Texas."
+    },
+    {
+      "id": "MET-071",
+      "name": "Bassikounou",
+      "type": "chondrite",
+      "composition": ["Silicate"],
+      "mass_g": 600.0,
+      "is_radioactive": false,
+      "description": "Fresh fall from Mauritania."
+    },
+    {
+      "id": "MET-072",
+      "name": "Po-210 Trace",
+      "type": "debris",
+      "composition": ["Polonium"],
+      "mass_g": 0.01,
+      "is_radioactive": true,
+      "description": "Microscopic trace of Polonium on a heat shield fragment."
+    },
+    {
+      "id": "MET-073",
+      "name": "Large Copper Nodule",
+      "type": "stony",
+      "composition": ["Copper"],
+      "mass_g": 12000.0,
+      "is_radioactive": false,
+      "description": "Native copper formation, possibly lunar or terrestrial contamination."
+    },
+    {
+      "id": "MET-074",
+      "name": "Toluca",
+      "type": "iron",
+      "composition": ["Iron"],
+      "mass_g": 2000.0,
+      "is_radioactive": false,
+      "description": "Iron meteorite used for centuries by locals for tools."
+    },
+    {
+      "id": "MET-075",
+      "name": "NWA 869",
+      "type": "chondrite",
+      "composition": ["Silicate", "Iron"],
+      "mass_g": 100.0,
+      "is_radioactive": false,
+      "description": "Common but beautiful brecciated chondrite."
+    },
+    {
+      "id": "MET-076",
+      "name": "U-233 Breeding Blanket",
+      "type": "debris",
+      "composition": ["Uranium-233"],
+      "mass_g": 200.0,
+      "is_radioactive": true,
+      "description": "Experimental reactor material found in debris field."
+    },
+    {
+      "id": "MET-077",
+      "name": "Ibitira",
+      "type": "achondrite",
+      "composition": ["Eucrite"],
+      "mass_g": 50.0,
+      "is_radioactive": false,
+      "description": "Vesicular eucrite, very rare."
+    },
+    {
+      "id": "MET-078",
+      "name": "Santa Catharina",
+      "type": "iron",
+      "composition": ["Iron", "Nickel"],
+      "mass_g": 500.0,
+      "is_radioactive": false,
+      "description": "Unusually high nickel content (35%)."
+    },
+    {
+      "id": "MET-079",
+      "name": "Heavy Platinum Bar",
+      "type": "debris",
+      "composition": ["Platinum"],
+      "mass_g": 13000.0,
+      "is_radioactive": false,
+      "description": "Processed platinum bar recovered from cargo bay wreckage."
+    },
+    {
+      "id": "MET-080",
+      "name": "Cf-252 Source",
+      "type": "debris",
+      "composition": ["Californium"],
+      "mass_g": 0.001,
+      "is_radioactive": true,
+      "description": "Strong neutron emitter source. Extreme hazard."
+    },
+    {
+      "id": "MET-081",
+      "name": "Sutter's Mill",
+      "type": "chondrite",
+      "composition": ["Carbon"],
+      "mass_g": 10.0,
+      "is_radioactive": false,
+      "description": "Carbonaceous chondrite fell during the California gold rush area."
+    },
+    {
+      "id": "MET-082",
+      "name": "Almahatta Sitta",
+      "type": "achondrite",
+      "composition": ["Ureilite"],
+      "mass_g": 40.0,
+      "is_radioactive": false,
+      "description": "Fragments of asteroid 2008 TC3, tracked before impact."
+    },
+    {
+      "id": "MET-083",
+      "name": "Waste Canister B",
+      "type": "debris",
+      "composition": ["Fission Products"],
+      "mass_g": 5000.0,
+      "is_radioactive": true,
+      "description": "Sealed canister containing radioactive waste."
+    },
+    {
+      "id": "MET-084",
+      "name": "Chinge",
+      "type": "iron",
+      "composition": ["Iron", "Nickel"],
+      "mass_g": 300.0,
+      "is_radioactive": false,
+      "description": "Ataxite class iron, high nickel."
+    },
+    {
+      "id": "MET-085",
+      "name": "Brahin",
+      "type": "pallasite",
+      "composition": ["Iron", "Olivine"],
+      "mass_g": 1500.0,
+      "is_radioactive": false,
+      "description": "Weathered pallasite from Belarus."
+    },
+    {
+      "id": "MET-086",
+      "name": "Core Sample X-9",
+      "type": "debris",
+      "composition": ["Uranium"],
+      "mass_g": 400.0,
+      "is_radioactive": true,
+      "description": "Drill core from a uranium-rich asteroid."
+    },
+    {
+      "id": "MET-087",
+      "name": "Wolf Creek",
+      "type": "iron",
+      "composition": ["Iron"],
+      "mass_g": 2000.0,
+      "is_radioactive": false,
+      "description": "Heavily weathered shale from Australian crater."
+    },
+    {
+      "id": "MET-088",
+      "name": "Heavy Machinery Part",
+      "type": "debris",
+      "composition": ["Steel"],
+      "mass_g": 16000.0,
+      "is_radioactive": false,
+      "description": "Solid steel component from a launch pad mechanism."
+    },
+    {
+      "id": "MET-089",
+      "name": "D'Orbigny",
+      "type": "achondrite",
+      "composition": ["Angrite"],
+      "mass_g": 800.0,
+      "is_radioactive": false,
+      "description": "Rare angrite meteorite, rapidly cooled."
+    },
+    {
+      "id": "MET-090",
+      "name": "Graphite Nodule",
+      "type": "iron",
+      "composition": ["Carbon", "Iron"],
+      "mass_g": 100.0,
+      "is_radioactive": false,
+      "description": "Large graphite inclusion popped out of an iron meteorite."
+    },
+    {
+      "id": "MET-091",
+      "name": "Irradiated Hull",
+      "type": "debris",
+      "composition": ["Aluminum"],
+      "mass_g": 500.0,
+      "is_radioactive": true,
+      "description": "Hull plating exposed to intense solar flare radiation."
+    },
+    {
+      "id": "MET-092",
+      "name": "Khatyrka",
+      "type": "chondrite",
+      "composition": ["Quasicrystals"],
+      "mass_g": 5.0,
+      "is_radioactive": false,
+      "description": "Contains natural quasicrystals, unique structure."
+    },
+    {
+      "id": "MET-093",
+      "name": "NWA 7325",
+      "type": "achondrite",
+      "composition": ["Magnesium"],
+      "mass_g": 30.0,
+      "is_radioactive": false,
+      "description": "Green meteorite, possibly from Mercury."
+    },
+    {
+      "id": "MET-094",
+      "name": "Fuel Pellet",
+      "type": "debris",
+      "composition": ["MOX Fuel"],
+      "mass_g": 10.0,
+      "is_radioactive": true,
+      "description": "Mixed Oxide fuel pellet."
+    },
+    {
+      "id": "MET-095",
+      "name": "Hallingdal",
+      "type": "chondrite",
+      "composition": ["Silicate"],
+      "mass_g": 50.0,
+      "is_radioactive": false,
+      "description": "Ordinary chondrite."
+    },
+    {
+      "id": "MET-096",
+      "name": "Heavy Ballast",
+      "type": "debris",
+      "composition": ["Depleted Uranium"],
+      "mass_g": 12000.0,
+      "is_radioactive": false,
+      "description": "Counterweight made of DU. Heavy but low radioactivity (safe logic check)."
+    },
+    {
+      "id": "MET-097",
+      "name": "Winona",
+      "type": "achondrite",
+      "composition": ["Silicate", "Iron"],
+      "mass_g": 100.0,
+      "is_radioactive": false,
+      "description": "Type specimen for the Winonaite group."
+    },
+    {
+      "id": "MET-098",
+      "name": "Acfer 094",
+      "type": "chondrite",
+      "composition": ["Carbon"],
+      "mass_g": 20.0,
+      "is_radioactive": false,
+      "description": "Contains high abundance of pre-solar grains."
+    },
+    {
+      "id": "MET-099",
+      "name": "Neutron Mirror",
+      "type": "debris",
+      "composition": ["Beryllium"],
+      "mass_g": 500.0,
+      "is_radioactive": true,
+      "description": "Neutron reflector component, activated by exposure."
+    },
+    {
+      "id": "MET-100",
+      "name": "Final Fall",
+      "type": "stony",
+      "composition": ["Silicate"],
+      "mass_g": 100.0,
+      "is_radioactive": false,
+      "description": "The final item in the current catalogue."
+    }
+  ]

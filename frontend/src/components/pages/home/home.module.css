@@ -1,0 +1,129 @@
+/** Home Page Neumorphic CSS Module */
+
+.home {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Hero Section */
+.hero {
+  margin-bottom: 4rem;
+  padding: 3rem 2rem;
+  border-radius: 2rem;
+  background: #e0e5ec;
+  box-shadow:
+    12px 12px 24px #b8bac7,
+    -12px -12px 24px #ffffff;
+  text-align: center;
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #555a7a;
+  margin-bottom: 1rem;
+  text-shadow: 
+    2px 2px 4px rgba(184, 186, 199, 0.3),
+    -1px -1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #555a7a;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+}
+
+.heroDescription {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555a7a;
+  opacity: 0.85;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Topics Section */
+.topics {
+  margin-top: 3rem;
+}
+
+.topicsTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #555a7a;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  text-shadow: 
+    2px 2px 4px rgba(184, 186, 199, 0.3),
+    -1px -1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.topicsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home {
+    padding: 1rem 0.5rem;
+  }
+
+  .hero {
+    padding: 2rem 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.2rem;
+  }
+
+  .heroDescription {
+    font-size: 1rem;
+  }
+
+  .topicsTitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .topicsGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 1.5rem 1rem;
+  }
+
+  .heroTitle {
+    font-size: 1.75rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.1rem;
+  }
+
+  .topicsTitle {
+    font-size: 1.75rem;
+  }
+}
+

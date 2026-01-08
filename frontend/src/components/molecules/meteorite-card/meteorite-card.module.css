@@ -1,0 +1,84 @@
+/** Meteorite Card Neumorphic CSS Module */
+
+.meta {
+  padding: 0.75rem 0;
+  border-top: 1px solid rgba(184, 186, 199, 0.3);
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.metaRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #555a7a;
+  min-width: 100px;
+}
+
+.value {
+  font-size: 0.9rem;
+  color: #555a7a;
+  opacity: 0.85;
+}
+
+.radioactive {
+  color: #ff6b6b;
+  font-weight: 600;
+}
+
+.safe {
+  color: #51cf66;
+  font-weight: 600;
+}
+
+.composition {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  flex: 1;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #555a7a;
+  background: #e0e5ec;
+  border-radius: 0.75rem;
+  box-shadow:
+    2px 2px 6px #b8bac7,
+    -2px -2px 6px #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .label {
+    min-width: 80px;
+    font-size: 0.85rem;
+  }
+
+  .value {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .metaRow {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .label {
+    min-width: auto;
+  }
+}
+

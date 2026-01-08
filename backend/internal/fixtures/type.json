@@ -1,0 +1,72 @@
+[
+    {
+      "id": "TYPE-001",
+      "name": "Iron",
+      "slug": "iron",
+      "description": "Composed mainly of iron-nickel metal from the cores of shattered asteroids.",
+      "origin": "Asteroid Core"
+    },
+    {
+      "id": "TYPE-002",
+      "name": "Stony",
+      "slug": "stony",
+      "description": "The most common meteorite type, composed mostly of silicate minerals.",
+      "origin": "Asteroid Crust"
+    },
+    {
+      "id": "TYPE-003",
+      "name": "Chondrite",
+      "slug": "chondrite",
+      "description": "Non-differentiated stony meteorites containing small spheres called chondrules.",
+      "origin": "Solar Nebula"
+    },
+    {
+      "id": "TYPE-004",
+      "name": "Achondrite",
+      "slug": "achondrite",
+      "description": "Stony meteorites without chondrules, formed by magmatic activity.",
+      "origin": "Planetary Crust"
+    },
+    {
+      "id": "TYPE-005",
+      "name": "Pallasite",
+      "slug": "pallasite",
+      "description": "Stony-iron meteorites with olivine crystals embedded in metal.",
+      "origin": "Core-Mantle Boundary"
+    },
+    {
+      "id": "TYPE-006",
+      "name": "Stony-Iron",
+      "slug": "stony-iron",
+      "description": "A mix of metal and rock, excluding pallasites (e.g., Mesosiderites).",
+      "origin": "Asteroid Collision"
+    },
+    {
+      "id": "TYPE-007",
+      "name": "Martian",
+      "slug": "martian",
+      "description": "Rocks ejected from the surface of Mars by impacts.",
+      "origin": "Mars"
+    },
+    {
+      "id": "TYPE-008",
+      "name": "Lunar",
+      "slug": "lunar",
+      "description": "Meteorites originating from Earth's Moon.",
+      "origin": "The Moon"
+    },
+    {
+      "id": "TYPE-009",
+      "name": "Tektite",
+      "slug": "tektite",
+      "description": "Natural glass objects formed by the impact of large meteorites on Earth.",
+      "origin": "Earth (Impact)"
+    },
+    {
+      "id": "TYPE-010",
+      "name": "Space Debris",
+      "slug": "debris",
+      "description": "Artificial material recovered from orbit or re-entry (satellite fragments, fuel).",
+      "origin": "Low Earth Orbit"
+    }
+  ]

@@ -1,0 +1,159 @@
+/** Meteorite Types Page Neumorphic CSS Module */
+
+.page {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  background: #e0e5ec;
+  box-shadow:
+    8px 8px 16px #b8bac7,
+    -8px -8px 16px #ffffff;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #555a7a;
+  margin-bottom: 1rem;
+  text-shadow: 
+    2px 2px 4px rgba(184, 186, 199, 0.3),
+    -1px -1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #555a7a;
+  opacity: 0.85;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.content {
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 0;
+}
+
+.empty {
+  text-align: center;
+  padding: 3rem;
+  border-radius: 1.5rem;
+  background: #e0e5ec;
+  box-shadow:
+    inset 4px 4px 12px #b8bac7,
+    inset -4px -4px 12px #ffffff;
+}
+
+.empty p {
+  font-size: 1.1rem;
+  color: #555a7a;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.meta {
+  padding: 0.75rem 0;
+  border-top: 1px solid rgba(184, 186, 199, 0.3);
+  margin-top: 0.5rem;
+}
+
+.origin {
+  display: block;
+  font-size: 0.9rem;
+  color: #555a7a;
+  opacity: 0.8;
+}
+
+.origin strong {
+  font-weight: 600;
+  color: #555a7a;
+}
+
+.link {
+  display: inline-block;
+  padding: 0.6rem 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #555a7a;
+  text-decoration: none;
+  border-radius: 1rem;
+  background: #e0e5ec;
+  box-shadow:
+    4px 4px 10px #b8bac7,
+    -4px -4px 10px #ffffff;
+  transition: 
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    color 0.2s ease;
+  cursor: pointer;
+  outline: none;
+}
+
+.link:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    5px 5px 12px #b8bac7,
+    -5px -5px 12px #ffffff;
+  color: #31a0fe;
+}
+
+.link:active {
+  transform: translateY(0);
+  box-shadow:
+    inset 3px 3px 8px #b8bac7,
+    inset -3px -3px 8px #ffffff;
+  color: #31a0fe;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .page {
+    padding: 1rem 0.5rem;
+  }
+
+  .header {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 1.25rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+

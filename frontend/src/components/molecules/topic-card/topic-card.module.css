@@ -1,0 +1,232 @@
+/** Topic Card Neumorphic CSS Module */
+
+.topicCard {
+  padding: 2rem;
+  border-radius: 1.5rem;
+  background: #e0e5ec;
+  box-shadow:
+    8px 8px 16px #b8bac7,
+    -8px -8px 16px #ffffff;
+  transition: 
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.topicCard:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    10px 10px 20px #b8bac7,
+    -10px -10px 20px #ffffff;
+}
+
+.topicCard:active {
+  transform: translateY(-2px);
+  box-shadow:
+    inset 4px 4px 12px #b8bac7,
+    inset -4px -4px 12px #ffffff;
+}
+
+.topicHeader {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.topicIcon {
+  font-size: 3.5rem;
+  filter: drop-shadow(2px 2px 4px rgba(184, 186, 199, 0.3));
+}
+
+.statusBadge {
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 1rem;
+  background: #e0e5ec;
+  box-shadow:
+    3px 3px 8px #b8bac7,
+    -3px -3px 8px #ffffff;
+  z-index: 1;
+}
+
+.statusBadge.active {
+  color: #31a0fe;
+}
+
+.statusBadge.comingSoon {
+  color: #ff9800;
+}
+
+/* Handle the 'coming soon' status with space */
+.statusBadge[class*="coming"] {
+  color: #ff9800;
+}
+
+.topicTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #555a7a;
+  margin-bottom: 1rem;
+}
+
+.topicDescription {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555a7a;
+  opacity: 0.85;
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+/* Topic Tags */
+.topicTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.topicTag {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #555a7a;
+  background: #e0e5ec;
+  border-radius: 1rem;
+  box-shadow:
+    3px 3px 8px #b8bac7,
+    -3px -3px 8px #ffffff;
+  transition: 
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    color 0.2s ease;
+  cursor: default;
+}
+
+.topicTag:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    4px 4px 10px #b8bac7,
+    -4px -4px 10px #ffffff;
+  color: #31a0fe;
+}
+
+.topicTag:active {
+  transform: translateY(0);
+  box-shadow:
+    inset 2px 2px 6px #b8bac7,
+    inset -2px -2px 6px #ffffff;
+}
+
+/* Topic Button */
+.topicButton {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #555a7a;
+  text-decoration: none;
+  text-align: center;
+  background: #e0e5ec;
+  border: none;
+  border-radius: 1rem;
+  box-shadow:
+    4px 4px 10px #b8bac7,
+    -4px -4px 10px #ffffff;
+  transition: 
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    color 0.2s ease;
+  cursor: pointer;
+  outline: none;
+}
+
+.topicButton:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    5px 5px 12px #b8bac7,
+    -5px -5px 12px #ffffff;
+  color: #31a0fe;
+}
+
+.topicButton:active {
+  transform: translateY(0);
+  box-shadow:
+    inset 3px 3px 8px #b8bac7,
+    inset -3px -3px 8px #ffffff;
+  color: #31a0fe;
+}
+
+.topicButton.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  color: #999;
+}
+
+.topicButton.disabled:hover {
+  transform: none;
+  box-shadow:
+    4px 4px 10px #b8bac7,
+    -4px -4px 10px #ffffff;
+  color: #999;
+}
+
+.topicButton.disabled:active {
+  transform: none;
+  box-shadow:
+    4px 4px 10px #b8bac7,
+    -4px -4px 10px #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .topicCard {
+    padding: 1.5rem;
+  }
+
+  .topicIcon {
+    font-size: 3rem;
+  }
+
+  .statusBadge {
+    font-size: 0.7rem;
+    padding: 0.25rem 0.65rem;
+  }
+
+  .topicTitle {
+    font-size: 1.3rem;
+  }
+
+  .topicDescription {
+    font-size: 0.95rem;
+  }
+
+  .topicTags {
+    gap: 0.4rem;
+    margin-top: 0.8rem;
+  }
+
+  .topicTag {
+    padding: 0.35rem 0.75rem;
+    font-size: 0.8rem;
+  }
+
+  .topicButton {
+    padding: 0.65rem 1.5rem;
+    font-size: 0.9rem;
+    margin-top: 1.2rem;
+  }
+}
+
